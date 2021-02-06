@@ -1,0 +1,72 @@
+/******************************* COMMON ***************************************/
+/* Fonts */
+
+/* Typography */
+/* Typography - mobile(album) */
+/* Typography - tab(portrait) */
+/* Typography - tab(album) */
+/* Typography - desktop */
+
+/* Container */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* container - mobile(album) */
+@media (min-width: 576px) {}
+/* container - tab(album) */
+@media (min-width: 768px) {}
+/* container - tab(portrait) */
+@media (min-width: 992px) {}
+/* container - desktop */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1036px;
+    }
+}
+/* container - desktop(large) */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1436px;
+    }
+}
+
+
+/******************************* UI ***************************************/
+/* Logo */
+.logo img{
+    width: 148px;
+    height: auto;
+}
+
+/* Buttons */
+.btn {}
+.btn--link {}
+.btn--outline {}
+.btn--small {}
+.btn--big {}
+.btn--primary {}
+
+/* Menu */
+.menu {}
+
+/******************************* SECTIONS ***************************************/
+/* header */
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__btns {
+    display: flex;
+}
+.header__btns .btn:not(:last-child){
+    margin-right: 8px;
+}
+/* header - mobile(album) */
+/* header - tab(portrait) */
+/* header - tab(album) */
+/* header - desktop */
